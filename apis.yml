@@ -1,8 +1,15 @@
 aid: astro
 name: Astro
-description: 'Astro is a company surfaced as a portfolio company of accel, lightspeed-venture-partners,
-  redpoint-ventures and added to the API Evangelist network as a stub for enrichment. Sector: consumer.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'Astro (PT Astro Technologies Indonesia, astronauts.id) is an Indonesian
+  quick-commerce grocery and daily-needs delivery service that fulfills orders in as
+  little as fifteen minutes across the Greater Jakarta (Jadetabek) area. The consumer
+  mobile app offers more than 15,000 SKUs spanning fresh produce, meat and seafood,
+  frozen and prepared meals, beverages, snacks, baby and maternal care, personal care
+  and beauty, household supplies, and the private-label Astro Goods line, operating
+  24/7 from a network of dark stores. Astro is venture-backed by Accel, Lightspeed
+  Venture Partners, and Redpoint Ventures. It is a consumer B2C app and publishes no
+  public developer API; this API Evangelist profile tracks the company as a portfolio
+  lead.'
 url: https://raw.githubusercontent.com/api-evangelist/astro/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +19,30 @@ x-backed-by:
 - redpoint-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.astronauts.id/mobile-web-assets/img/astro-lite-og.jpg
 tags:
 - Company
 - Consumer
+- Quick Commerce
+- Grocery Delivery
+- E-commerce
+- Retail
+- Indonesia
+- On-Demand Delivery
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +50,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/astro-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.astronauts.id/.well-known/security.txt
+- type: WellKnown
+  url: well-known/astro-well-known.yml
+- type: SecurityTxt
+  url: well-known/astro-security.txt
 - type: Website
   url: https://www.astronauts.id/
+- type: Blog
+  url: https://www.astronauts.id/blog
+- type: Support
+  url: https://www.astronauts.id/sites/faq
+- type: PrivacyPolicy
+  url: https://www.astronauts.id/sites/privacy-policy
+- type: TermsOfService
+  url: https://www.astronauts.id/sites/syarat-ketentuan
+- type: About
+  url: https://www.astronauts.id/sites/tentang-astro
+- type: DomainSecurity
+  url: security/astro-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
